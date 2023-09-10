@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/pub_sub_custom/pub_sub_custom.egg-info
+writing ../../build/pub_sub_custom/pub_sub_custom.egg-info/PKG-INFO
+writing dependency_links to ../../build/pub_sub_custom/pub_sub_custom.egg-info/dependency_links.txt
+writing entry points to ../../build/pub_sub_custom/pub_sub_custom.egg-info/entry_points.txt
+writing requirements to ../../build/pub_sub_custom/pub_sub_custom.egg-info/requires.txt
+writing top-level names to ../../build/pub_sub_custom/pub_sub_custom.egg-info/top_level.txt
+writing manifest file '../../build/pub_sub_custom/pub_sub_custom.egg-info/SOURCES.txt'
+reading manifest file '../../build/pub_sub_custom/pub_sub_custom.egg-info/SOURCES.txt'
+writing manifest file '../../build/pub_sub_custom/pub_sub_custom.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/luisf/robot2_ws/build/pub_sub_custom/build
+creating /home/luisf/robot2_ws/build/pub_sub_custom/build/lib
+creating /home/luisf/robot2_ws/build/pub_sub_custom/build/lib/pub_sub_custom
+copying pub_sub_custom/pub_custom.py -> /home/luisf/robot2_ws/build/pub_sub_custom/build/lib/pub_sub_custom
+copying pub_sub_custom/sub_custom.py -> /home/luisf/robot2_ws/build/pub_sub_custom/build/lib/pub_sub_custom
+copying pub_sub_custom/__init__.py -> /home/luisf/robot2_ws/build/pub_sub_custom/build/lib/pub_sub_custom
+running install
+running install_lib
+creating /home/luisf/robot2_ws/install/pub_sub_custom/lib/python3.8/site-packages/pub_sub_custom
+copying /home/luisf/robot2_ws/build/pub_sub_custom/build/lib/pub_sub_custom/pub_custom.py -> /home/luisf/robot2_ws/install/pub_sub_custom/lib/python3.8/site-packages/pub_sub_custom
+copying /home/luisf/robot2_ws/build/pub_sub_custom/build/lib/pub_sub_custom/sub_custom.py -> /home/luisf/robot2_ws/install/pub_sub_custom/lib/python3.8/site-packages/pub_sub_custom
+copying /home/luisf/robot2_ws/build/pub_sub_custom/build/lib/pub_sub_custom/__init__.py -> /home/luisf/robot2_ws/install/pub_sub_custom/lib/python3.8/site-packages/pub_sub_custom
+byte-compiling /home/luisf/robot2_ws/install/pub_sub_custom/lib/python3.8/site-packages/pub_sub_custom/pub_custom.py to pub_custom.cpython-38.pyc
+byte-compiling /home/luisf/robot2_ws/install/pub_sub_custom/lib/python3.8/site-packages/pub_sub_custom/sub_custom.py to sub_custom.cpython-38.pyc
+byte-compiling /home/luisf/robot2_ws/install/pub_sub_custom/lib/python3.8/site-packages/pub_sub_custom/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/luisf/robot2_ws/install/pub_sub_custom/share/ament_index
+creating /home/luisf/robot2_ws/install/pub_sub_custom/share/ament_index/resource_index
+creating /home/luisf/robot2_ws/install/pub_sub_custom/share/ament_index/resource_index/packages
+copying resource/pub_sub_custom -> /home/luisf/robot2_ws/install/pub_sub_custom/share/ament_index/resource_index/packages
+copying package.xml -> /home/luisf/robot2_ws/install/pub_sub_custom/share/pub_sub_custom
+running install_egg_info
+Copying ../../build/pub_sub_custom/pub_sub_custom.egg-info to /home/luisf/robot2_ws/install/pub_sub_custom/lib/python3.8/site-packages/pub_sub_custom-0.0.0-py3.8.egg-info
+running install_scripts
+Installing publisher_custom script to /home/luisf/robot2_ws/install/pub_sub_custom/lib/pub_sub_custom
+writing list of installed files to '/home/luisf/robot2_ws/build/pub_sub_custom/install.log'

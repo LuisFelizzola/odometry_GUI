@@ -1,0 +1,24 @@
+[1.268s] Invoking command in '/home/luisf/robot2_ws/src/pub_sub_custom': CMAKE_PREFIX_PATH=/home/luisf/robot2_ws/install/custom_msg:/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber PYTHONPATH=/home/luisf/robot2_ws/build/pub_sub_custom/prefix_override:/home/luisf/robot2_ws/install/pub_sub_custom/lib/python3.8/site-packages:/home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages:/home/luisf/robot2_ws/install/pub_sub_custom/lib/python3.8/site-packages:/home/luisf/robot2_ws/build/publisher_subscriber_r:/home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages:/home/luisf/robot2_ws/build/program2:/home/luisf/robot2_ws/install/program2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/pub_sub_custom build --build-base /home/luisf/robot2_ws/build/pub_sub_custom/build install --record /home/luisf/robot2_ws/build/pub_sub_custom/install.log --install-scripts $base/lib/pub_sub_custom --single-version-externally-managed
+[1.686s] running egg_info
+[1.687s] writing ../../build/pub_sub_custom/pub_sub_custom.egg-info/PKG-INFO
+[1.687s] writing dependency_links to ../../build/pub_sub_custom/pub_sub_custom.egg-info/dependency_links.txt
+[1.687s] writing entry points to ../../build/pub_sub_custom/pub_sub_custom.egg-info/entry_points.txt
+[1.688s] writing requirements to ../../build/pub_sub_custom/pub_sub_custom.egg-info/requires.txt
+[1.688s] writing top-level names to ../../build/pub_sub_custom/pub_sub_custom.egg-info/top_level.txt
+[1.752s] reading manifest file '../../build/pub_sub_custom/pub_sub_custom.egg-info/SOURCES.txt'
+[1.753s] writing manifest file '../../build/pub_sub_custom/pub_sub_custom.egg-info/SOURCES.txt'
+[1.754s] running build
+[1.754s] running build_py
+[1.754s] copying pub_sub_custom/pub_custom.py -> /home/luisf/robot2_ws/build/pub_sub_custom/build/lib/pub_sub_custom
+[1.754s] running install
+[1.756s] running install_lib
+[1.758s] copying /home/luisf/robot2_ws/build/pub_sub_custom/build/lib/pub_sub_custom/pub_custom.py -> /home/luisf/robot2_ws/install/pub_sub_custom/lib/python3.8/site-packages/pub_sub_custom
+[1.759s] byte-compiling /home/luisf/robot2_ws/install/pub_sub_custom/lib/python3.8/site-packages/pub_sub_custom/pub_custom.py to pub_custom.cpython-38.pyc
+[1.761s] running install_data
+[1.762s] running install_egg_info
+[1.765s] removing '/home/luisf/robot2_ws/install/pub_sub_custom/lib/python3.8/site-packages/pub_sub_custom-0.0.0-py3.8.egg-info' (and everything under it)
+[1.765s] Copying ../../build/pub_sub_custom/pub_sub_custom.egg-info to /home/luisf/robot2_ws/install/pub_sub_custom/lib/python3.8/site-packages/pub_sub_custom-0.0.0-py3.8.egg-info
+[1.767s] running install_scripts
+[1.799s] Installing publisher_custom script to /home/luisf/robot2_ws/install/pub_sub_custom/lib/pub_sub_custom
+[1.800s] writing list of installed files to '/home/luisf/robot2_ws/build/pub_sub_custom/install.log'
+[1.835s] Invoked command in '/home/luisf/robot2_ws/src/pub_sub_custom' returned '0': CMAKE_PREFIX_PATH=/home/luisf/robot2_ws/install/custom_msg:/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber PYTHONPATH=/home/luisf/robot2_ws/build/pub_sub_custom/prefix_override:/home/luisf/robot2_ws/install/pub_sub_custom/lib/python3.8/site-packages:/home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages:/home/luisf/robot2_ws/install/pub_sub_custom/lib/python3.8/site-packages:/home/luisf/robot2_ws/build/publisher_subscriber_r:/home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages:/home/luisf/robot2_ws/build/program2:/home/luisf/robot2_ws/install/program2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/pub_sub_custom build --build-base /home/luisf/robot2_ws/build/pub_sub_custom/build install --record /home/luisf/robot2_ws/build/pub_sub_custom/install.log --install-scripts $base/lib/pub_sub_custom --single-version-externally-managed

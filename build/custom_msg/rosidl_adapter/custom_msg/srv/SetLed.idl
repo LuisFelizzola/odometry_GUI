@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_msg/srv/SetLed.srv
+// generated code does not contain a copyright notice
+
+
+module custom_msg {
+  module srv {
+    struct SetLed_Request {
+      int64 a;
+
+      @verbatim (language="comment", text=
+        " request")
+      int64 b;
+    };
+    struct SetLed_Response {
+      int64 sum;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+[console_scripts]
+publisher_custom = pub_sub_custom.pub_custom:main
+subscriber_custom = pub_sub_custom.sub_custom:main
+

@@ -1,0 +1,4 @@
+[console_scripts]
+add_client = add_integers.add_client:main
+add_server = add_integers.add_server:main
+

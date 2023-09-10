@@ -1,0 +1,8 @@
+{
+  "package_name": "custom_msg",
+  "non_idl_tuples": [
+    "/home/luisf/robot2_ws/src/custom_msg:srv/SetLed.srv",
+    "/home/luisf/robot2_ws/src/custom_msg:msg/LogTf.msg",
+    "/home/luisf/robot2_ws/src/custom_msg:msg/TargetCoordinates.msg"
+  ]
+}

@@ -1,0 +1,371 @@
+[0.000000] (-) TimerEvent: {}
+[0.000787] (-) JobUnselected: {'identifier': 'cpp_publisher_subscriber'}
+[0.001088] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001144] (-) JobUnselected: {'identifier': 'node1'}
+[0.001234] (-) JobUnselected: {'identifier': 'pub_sub_custom'}
+[0.001290] (-) JobUnselected: {'identifier': 'publisher_subscriber_custom_msg'}
+[0.001333] (-) JobUnselected: {'identifier': 'publisher_subscriber_r'}
+[0.001430] (custom_msg) JobQueued: {'identifier': 'custom_msg', 'dependencies': OrderedDict()}
+[0.001493] (custom_msg) JobStarted: {'identifier': 'custom_msg'}
+[0.034684] (custom_msg) JobProgress: {'identifier': 'custom_msg', 'progress': 'cmake'}
+[0.038330] (custom_msg) JobProgress: {'identifier': 'custom_msg', 'progress': 'build'}
+[0.039182] (custom_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luisf/robot2_ws/build/custom_msg', '--', '-j4', '-l4'], 'cwd': '/home/luisf/robot2_ws/build/custom_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luisf'), ('LC_TIME', 'es_CO.UTF-8'), ('SSH_AGENT_PID', '2521'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luisf/robot2_ws/install/custom_msg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/luisf'), ('OLDPWD', '/home/luisf/robot2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '2337'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/luisf/robot2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'luisf'), ('JOURNAL_STREAM', '8:44988'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luisf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/luisf-Lenovo-G40-80:@/tmp/.ICE-unix/2557,unix/luisf-Lenovo-G40-80:/tmp/.ICE-unix/2557'), ('INVOCATION_ID', 'b2063a18e32a437c861c654a6470f108'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/de31d118_f248_4af2_b99d_7fceb8c076b2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luisf/robot2_ws/install/pub_sub_custom:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg:/home/luisf/robot2_ws/install/program2:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/custom_msg:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luisf/robot2_ws/build/custom_msg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luisf/robot2_ws/install/pub_sub_custom/lib/python3.8/site-packages:/home/luisf/robot2_ws/build/publisher_subscriber_r:/home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages:/home/luisf/robot2_ws/build/program2:/home/luisf/robot2_ws/install/program2/lib/python3.8/site-packages:/home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/custom_msg:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/pub_sub_custom:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy')]), 'shell': False}
+[0.096164] (custom_msg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.099464] (-) TimerEvent: {}
+[0.156367] (custom_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.156820] (custom_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199614] (-) TimerEvent: {}
+[0.299990] (-) TimerEvent: {}
+[0.400349] (-) TimerEvent: {}
+[0.500716] (-) TimerEvent: {}
+[0.518533] (custom_msg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.532210] (custom_msg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.596371] (custom_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.600818] (-) TimerEvent: {}
+[0.602883] (custom_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.700951] (-) TimerEvent: {}
+[0.801389] (-) TimerEvent: {}
+[0.832777] (custom_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901619] (-) TimerEvent: {}
+[0.929555] (custom_msg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.934613] (custom_msg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.001744] (-) TimerEvent: {}
+[1.102109] (-) TimerEvent: {}
+[1.202464] (-) TimerEvent: {}
+[1.206790] (custom_msg) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.268205] (custom_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.287887] (custom_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.302585] (-) TimerEvent: {}
+[1.403005] (-) TimerEvent: {}
+[1.467329] (custom_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.503123] (-) TimerEvent: {}
+[1.603572] (-) TimerEvent: {}
+[1.704007] (-) TimerEvent: {}
+[1.728873] (custom_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.804142] (-) TimerEvent: {}
+[1.904593] (-) TimerEvent: {}
+[2.004944] (-) TimerEvent: {}
+[2.105294] (-) TimerEvent: {}
+[2.201727] (custom_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.205409] (-) TimerEvent: {}
+[2.305818] (-) TimerEvent: {}
+[2.406262] (-) TimerEvent: {}
+[2.418173] (custom_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.481915] (custom_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.483190] (custom_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.506727] (-) TimerEvent: {}
+[2.542694] (custom_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.543092] (custom_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.543335] (custom_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.606860] (-) TimerEvent: {}
+[2.667726] (custom_msg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.670508] (custom_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.672330] (custom_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.686015] (custom_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.707049] (-) TimerEvent: {}
+[2.807391] (-) TimerEvent: {}
+[2.850502] (custom_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[2.857081] (custom_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/luisf/robot2_ws/build/custom_msg\n'}
+[2.906027] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__cpp\x1b[0m\n'}
+[2.906903] (custom_msg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.907524] (-) TimerEvent: {}
+[2.929459] (custom_msg) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.007625] (-) TimerEvent: {}
+[3.108047] (-) TimerEvent: {}
+[3.208450] (-) TimerEvent: {}
+[3.308869] (-) TimerEvent: {}
+[3.409208] (-) TimerEvent: {}
+[3.509603] (-) TimerEvent: {}
+[3.610012] (-) TimerEvent: {}
+[3.700928] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_generator_c\x1b[0m\n'}
+[3.710151] (-) TimerEvent: {}
+[3.734715] (custom_msg) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_generator_c.dir/rosidl_generator_c/custom_msg/srv/detail/set_led__functions.c.o\x1b[0m\n'}
+[3.792759] (custom_msg) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_generator_c.dir/rosidl_generator_c/custom_msg/msg/detail/target_coordinates__functions.c.o\x1b[0m\n'}
+[3.793412] (custom_msg) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_generator_c.dir/rosidl_generator_c/custom_msg/msg/detail/log_tf__functions.c.o\x1b[0m\n'}
+[3.800357] (custom_msg) StdoutLine: {'line': b'[ 10%] Built target custom_msg__cpp\n'}
+[3.810296] (-) TimerEvent: {}
+[3.829510] (custom_msg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.910427] (-) TimerEvent: {}
+[3.914515] (custom_msg) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.932645] (custom_msg) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libcustom_msg__rosidl_generator_c.so\x1b[0m\n'}
+[3.934106] (custom_msg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.010554] (-) TimerEvent: {}
+[4.055306] (custom_msg) StdoutLine: {'line': b'[ 19%] Built target custom_msg__rosidl_generator_c\n'}
+[4.085733] (custom_msg) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.110684] (-) TimerEvent: {}
+[4.211147] (-) TimerEvent: {}
+[4.311586] (-) TimerEvent: {}
+[4.412033] (-) TimerEvent: {}
+[4.512484] (-) TimerEvent: {}
+[4.612899] (-) TimerEvent: {}
+[4.713353] (-) TimerEvent: {}
+[4.813788] (-) TimerEvent: {}
+[4.823814] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.857968] (custom_msg) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msg/srv/set_led__type_support.cpp.o\x1b[0m\n'}
+[4.913919] (-) TimerEvent: {}
+[5.014560] (-) TimerEvent: {}
+[5.060004] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_c\x1b[0m\n'}
+[5.079913] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.112884] (custom_msg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msg/srv/set_led__type_support.cpp.o\x1b[0m\n'}
+[5.114691] (-) TimerEvent: {}
+[5.117349] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.124195] (custom_msg) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msg/srv/detail/set_led__type_support.cpp.o\x1b[0m\n'}
+[5.211631] (custom_msg) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msg/msg/log_tf__type_support.cpp.o\x1b[0m\n'}
+[5.214830] (-) TimerEvent: {}
+[5.232284] (custom_msg) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msg/srv/detail/dds_fastrtps/set_led__type_support.cpp.o\x1b[0m\n'}
+[5.304958] (custom_msg) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msg/msg/target_coordinates__type_support.cpp.o\x1b[0m\n'}
+[5.314993] (-) TimerEvent: {}
+[5.391034] (custom_msg) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.415117] (-) TimerEvent: {}
+[5.513342] (custom_msg) StdoutLine: {'line': b'[ 36%] Built target custom_msg__rosidl_typesupport_c\n'}
+[5.515430] (-) TimerEvent: {}
+[5.539986] (custom_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msg/msg/detail/log_tf__type_support.cpp.o\x1b[0m\n'}
+[5.616221] (-) TimerEvent: {}
+[5.708357] (custom_msg) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msg/msg/log_tf__type_support.cpp.o\x1b[0m\n'}
+[5.716375] (-) TimerEvent: {}
+[5.816932] (-) TimerEvent: {}
+[5.917513] (-) TimerEvent: {}
+[6.018035] (-) TimerEvent: {}
+[6.018665] (custom_msg) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.118182] (-) TimerEvent: {}
+[6.218803] (-) TimerEvent: {}
+[6.319599] (-) TimerEvent: {}
+[6.420311] (-) TimerEvent: {}
+[6.469487] (custom_msg) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msg/msg/detail/target_coordinates__type_support.cpp.o\x1b[0m\n'}
+[6.520436] (-) TimerEvent: {}
+[6.587764] (custom_msg) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msg/msg/detail/dds_fastrtps/log_tf__type_support.cpp.o\x1b[0m\n'}
+[6.620566] (-) TimerEvent: {}
+[6.640305] (custom_msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msg/msg/target_coordinates__type_support.cpp.o\x1b[0m\n'}
+[6.720687] (-) TimerEvent: {}
+[6.821234] (-) TimerEvent: {}
+[6.921920] (-) TimerEvent: {}
+[7.022412] (-) TimerEvent: {}
+[7.122940] (-) TimerEvent: {}
+[7.223513] (-) TimerEvent: {}
+[7.240454] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[7.323623] (-) TimerEvent: {}
+[7.379381] (custom_msg) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msg/srv/detail/set_led__type_support.c.o\x1b[0m\n'}
+[7.388902] (custom_msg) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.423762] (-) TimerEvent: {}
+[7.491966] (custom_msg) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msg/msg/detail/log_tf__type_support.c.o\x1b[0m\n'}
+[7.523994] (-) TimerEvent: {}
+[7.585805] (custom_msg) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.593497] (custom_msg) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msg/msg/detail/target_coordinates__type_support.c.o\x1b[0m\n'}
+[7.611920] (custom_msg) StdoutLine: {'line': b'[ 59%] Built target custom_msg__rosidl_typesupport_introspection_cpp\n'}
+[7.624130] (-) TimerEvent: {}
+[7.649737] (custom_msg) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msg/msg/detail/dds_fastrtps/target_coordinates__type_support.cpp.o\x1b[0m\n'}
+[7.688242] (custom_msg) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking C shared library libcustom_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.717572] (custom_msg) StdoutLine: {'line': b'[ 63%] Built target custom_msg__rosidl_typesupport_cpp\n'}
+[7.724260] (-) TimerEvent: {}
+[7.761630] (custom_msg) StdoutLine: {'line': b'[ 63%] Built target custom_msg__rosidl_typesupport_introspection_c\n'}
+[7.824386] (-) TimerEvent: {}
+[7.924811] (-) TimerEvent: {}
+[8.025246] (-) TimerEvent: {}
+[8.125679] (-) TimerEvent: {}
+[8.226110] (-) TimerEvent: {}
+[8.326538] (-) TimerEvent: {}
+[8.426959] (-) TimerEvent: {}
+[8.478755] (custom_msg) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.527097] (-) TimerEvent: {}
+[8.627575] (-) TimerEvent: {}
+[8.650793] (custom_msg) StdoutLine: {'line': b'[ 65%] Built target custom_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[8.672995] (custom_msg) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.727691] (-) TimerEvent: {}
+[8.828110] (-) TimerEvent: {}
+[8.928459] (-) TimerEvent: {}
+[9.028808] (-) TimerEvent: {}
+[9.129152] (-) TimerEvent: {}
+[9.229479] (-) TimerEvent: {}
+[9.321808] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[9.329612] (-) TimerEvent: {}
+[9.361441] (custom_msg) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msg/msg/detail/log_tf__type_support_c.cpp.o\x1b[0m\n'}
+[9.364863] (custom_msg) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msg/srv/detail/set_led__type_support_c.cpp.o\x1b[0m\n'}
+[9.365686] (custom_msg) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msg/msg/detail/target_coordinates__type_support_c.cpp.o\x1b[0m\n'}
+[9.429761] (-) TimerEvent: {}
+[9.530434] (-) TimerEvent: {}
+[9.631110] (-) TimerEvent: {}
+[9.731788] (-) TimerEvent: {}
+[9.832460] (-) TimerEvent: {}
+[9.933290] (-) TimerEvent: {}
+[10.034002] (-) TimerEvent: {}
+[10.134648] (-) TimerEvent: {}
+[10.235096] (-) TimerEvent: {}
+[10.335569] (-) TimerEvent: {}
+[10.400690] (custom_msg) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.435707] (-) TimerEvent: {}
+[10.536189] (-) TimerEvent: {}
+[10.575746] (custom_msg) StdoutLine: {'line': b'[ 76%] Built target custom_msg__rosidl_typesupport_fastrtps_c\n'}
+[10.616294] (custom_msg) StdoutLine: {'line': b'[ 76%] Built target custom_msg\n'}
+[10.636311] (-) TimerEvent: {}
+[10.638231] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__py\x1b[0m\n'}
+[10.658058] (custom_msg) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.736431] (-) TimerEvent: {}
+[10.836776] (-) TimerEvent: {}
+[10.937157] (-) TimerEvent: {}
+[11.037564] (-) TimerEvent: {}
+[11.137988] (-) TimerEvent: {}
+[11.238382] (-) TimerEvent: {}
+[11.338762] (-) TimerEvent: {}
+[11.439149] (-) TimerEvent: {}
+[11.539543] (-) TimerEvent: {}
+[11.639915] (-) TimerEvent: {}
+[11.740309] (-) TimerEvent: {}
+[11.840695] (-) TimerEvent: {}
+[11.909322] (custom_msg) StdoutLine: {'line': b'[ 78%] Built target custom_msg__py\n'}
+[11.931064] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__python\x1b[0m\n'}
+[11.940815] (-) TimerEvent: {}
+[11.968522] (custom_msg) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/custom_msg__python.dir/rosidl_generator_py/custom_msg/srv/_set_led_s.c.o\x1b[0m\n'}
+[11.969053] (custom_msg) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_msg__python.dir/rosidl_generator_py/custom_msg/msg/_log_tf_s.c.o\x1b[0m\n'}
+[11.969314] (custom_msg) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_msg__python.dir/rosidl_generator_py/custom_msg/msg/_target_coordinates_s.c.o\x1b[0m\n'}
+[12.040959] (-) TimerEvent: {}
+[12.141499] (-) TimerEvent: {}
+[12.211481] (custom_msg) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msg/libcustom_msg__python.so\x1b[0m\n'}
+[12.241633] (-) TimerEvent: {}
+[12.311357] (custom_msg) StdoutLine: {'line': b'[ 87%] Built target custom_msg__python\n'}
+[12.330955] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[12.338298] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[12.338651] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[12.341758] (-) TimerEvent: {}
+[12.363274] (custom_msg) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_msg/_custom_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.378360] (custom_msg) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msg/_custom_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.389800] (custom_msg) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msg/_custom_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.441903] (-) TimerEvent: {}
+[12.542602] (-) TimerEvent: {}
+[12.567642] (custom_msg) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msg/custom_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.593893] (custom_msg) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.637319] (custom_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.642791] (-) TimerEvent: {}
+[12.667676] (custom_msg) StdoutLine: {'line': b'[100%] Built target custom_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[12.685454] (custom_msg) StdoutLine: {'line': b'[100%] Built target custom_msg__rosidl_typesupport_c__pyext\n'}
+[12.742930] (-) TimerEvent: {}
+[12.780465] (custom_msg) StdoutLine: {'line': b'[100%] Built target custom_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.801746] (custom_msg) CommandEnded: {'returncode': 0}
+[12.843186] (-) TimerEvent: {}
+[12.943865] (-) TimerEvent: {}
+[12.951115] (custom_msg) JobProgress: {'identifier': 'custom_msg', 'progress': 'install'}
+[12.973388] (custom_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luisf/robot2_ws/build/custom_msg'], 'cwd': '/home/luisf/robot2_ws/build/custom_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luisf'), ('LC_TIME', 'es_CO.UTF-8'), ('SSH_AGENT_PID', '2521'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luisf/robot2_ws/install/custom_msg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/luisf'), ('OLDPWD', '/home/luisf/robot2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '2337'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/luisf/robot2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'luisf'), ('JOURNAL_STREAM', '8:44988'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luisf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/luisf-Lenovo-G40-80:@/tmp/.ICE-unix/2557,unix/luisf-Lenovo-G40-80:/tmp/.ICE-unix/2557'), ('INVOCATION_ID', 'b2063a18e32a437c861c654a6470f108'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/de31d118_f248_4af2_b99d_7fceb8c076b2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luisf/robot2_ws/install/pub_sub_custom:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg:/home/luisf/robot2_ws/install/program2:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/custom_msg:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luisf/robot2_ws/build/custom_msg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luisf/robot2_ws/install/pub_sub_custom/lib/python3.8/site-packages:/home/luisf/robot2_ws/build/publisher_subscriber_r:/home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages:/home/luisf/robot2_ws/build/program2:/home/luisf/robot2_ws/install/program2/lib/python3.8/site-packages:/home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/custom_msg:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/pub_sub_custom:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy')]), 'shell': False}
+[12.991375] (custom_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.993160] (custom_msg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.994438] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/ament_index/resource_index/rosidl_interfaces/custom_msg\n'}
+[12.996279] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__functions.h\n'}
+[12.996612] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__struct.h\n'}
+[12.996980] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__type_support.h\n'}
+[12.997339] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/target_coordinates__functions.h\n'}
+[12.997830] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/target_coordinates__struct.h\n'}
+[12.998181] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/target_coordinates__type_support.h\n'}
+[12.998479] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/log_tf.h\n'}
+[12.998818] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.999162] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/target_coordinates.h\n'}
+[12.999574] (custom_msg) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/srv/detail/set_led__functions.h\n'}
+[13.017650] (custom_msg) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/srv/detail/set_led__struct.h\n'}
+[13.032539] (custom_msg) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/srv/detail/set_led__type_support.h\n'}
+[13.044031] (-) TimerEvent: {}
+[13.050383] (custom_msg) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/srv/set_led.h\n'}
+[13.071611] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/environment/library_path.sh\n'}
+[13.072170] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/environment/library_path.dsv\n'}
+[13.073553] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__rosidl_typesupport_fastrtps_c.h\n'}
+[13.074025] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/target_coordinates__rosidl_typesupport_fastrtps_c.h\n'}
+[13.074516] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.074925] (custom_msg) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h\n'}
+[13.094432] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[13.095725] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.096118] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/target_coordinates__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.096491] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.096789] (custom_msg) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.115956] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.117069] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__rosidl_typesupport_introspection_c.h\n'}
+[13.117384] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/target_coordinates__rosidl_typesupport_introspection_c.h\n'}
+[13.117769] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.118071] (custom_msg) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/srv/detail/set_led__rosidl_typesupport_introspection_c.h\n'}
+[13.136022] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__builder.hpp\n'}
+[13.136364] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__struct.hpp\n'}
+[13.136722] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__traits.hpp\n'}
+[13.137088] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__type_support.hpp\n'}
+[13.137429] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/target_coordinates__builder.hpp\n'}
+[13.137829] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/target_coordinates__struct.hpp\n'}
+[13.138168] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/target_coordinates__traits.hpp\n'}
+[13.138558] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/target_coordinates__type_support.hpp\n'}
+[13.138884] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/log_tf.hpp\n'}
+[13.139235] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[13.139751] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/target_coordinates.hpp\n'}
+[13.140010] (custom_msg) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/srv/detail/set_led__builder.hpp\n'}
+[13.144164] (-) TimerEvent: {}
+[13.158828] (custom_msg) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/srv/detail/set_led__struct.hpp\n'}
+[13.174303] (custom_msg) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/srv/detail/set_led__traits.hpp\n'}
+[13.190129] (custom_msg) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/srv/detail/set_led__type_support.hpp\n'}
+[13.207924] (custom_msg) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/srv/set_led.hpp\n'}
+[13.226811] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.227154] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/target_coordinates__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.227391] (custom_msg) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.244293] (-) TimerEvent: {}
+[13.246191] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/environment/pythonpath.sh\n'}
+[13.246637] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/environment/pythonpath.dsv\n'}
+[13.247097] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages/custom_msg/__init__.py\n'}
+[13.248112] (custom_msg) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages/custom_msg/srv/__init__.py\n'}
+[13.267561] (custom_msg) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages/custom_msg/srv/_set_led.py\n'}
+[13.287730] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages/custom_msg/msg/__init__.py\n'}
+[13.288409] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages/custom_msg/msg/_log_tf.py\n'}
+[13.289368] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages/custom_msg/msg/_target_coordinates.py\n'}
+[13.290505] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[13.292031] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages/custom_msg/custom_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[13.293309] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[13.294736] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/lib/libcustom_msg__python.so\n'}
+[13.295712] (custom_msg) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/srv/SetLed.idl\n'}
+[13.311322] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/msg/LogTf.idl\n'}
+[13.311999] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/msg/TargetCoordinates.idl\n'}
+[13.312593] (custom_msg) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/srv/SetLed.srv\n'}
+[13.329146] (custom_msg) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/srv/SetLed_Request.msg\n'}
+[13.344418] (-) TimerEvent: {}
+[13.345002] (custom_msg) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/srv/SetLed_Response.msg\n'}
+[13.360450] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/msg/LogTf.msg\n'}
+[13.360888] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/msg/TargetCoordinates.msg\n'}
+[13.361548] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/ament_index/resource_index/package_run_dependencies/custom_msg\n'}
+[13.362198] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/ament_index/resource_index/parent_prefix_path/custom_msg\n'}
+[13.362842] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/environment/ament_prefix_path.sh\n'}
+[13.363472] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/environment/ament_prefix_path.dsv\n'}
+[13.364150] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/environment/path.sh\n'}
+[13.364985] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/environment/path.dsv\n'}
+[13.366051] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/local_setup.bash\n'}
+[13.367127] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/local_setup.sh\n'}
+[13.368248] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/local_setup.zsh\n'}
+[13.369298] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/local_setup.dsv\n'}
+[13.370141] (custom_msg) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/package.dsv\n'}
+[13.387244] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/ament_index/resource_index/packages/custom_msg\n'}
+[13.387701] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[13.388179] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.388651] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.389318] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.389802] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.390272] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.390711] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.391178] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msgConfig.cmake\n'}
+[13.391470] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msgConfig-version.cmake\n'}
+[13.427071] (custom_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/package.xml\n'}
+[13.427541] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/luisf/robot2_ws/install/custom_msg/lib/libcustom_msg__rosidl_generator_c.so\n'}
+[13.428358] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/luisf/robot2_ws/install/custom_msg/lib/libcustom_msg__rosidl_generator_c.so" to ""\n'}
+[13.428772] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/luisf/robot2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_c.so\n'}
+[13.429480] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/luisf/robot2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.429816] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/luisf/robot2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_c.so\n'}
+[13.430430] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/luisf/robot2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_c.so" to ""\n'}
+[13.430859] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/luisf/robot2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[13.431659] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/luisf/robot2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.432043] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/luisf/robot2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_cpp.so\n'}
+[13.432682] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/luisf/robot2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[13.444524] (-) TimerEvent: {}
+[13.496638] (custom_msg) StdoutLine: {'line': b"Compiling '/home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages/custom_msg/__init__.py'...\n"}
+[13.504490] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_generator_cExport.cmake\n'}
+[13.504822] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.505052] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.505327] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.505586] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cExport.cmake\n'}
+[13.505803] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.506141] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_generator_cppExport.cmake\n'}
+[13.506429] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.506660] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.506959] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cppExport.cmake\n'}
+[13.507151] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.511212] (custom_msg) CommandEnded: {'returncode': 0}
+[13.544883] (-) TimerEvent: {}
+[13.645437] (-) TimerEvent: {}
+[13.733183] (custom_msg) JobEnded: {'identifier': 'custom_msg', 'rc': 0}
+[13.734490] (-) EventReactorShutdown: {}

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_msg/msg/TargetCoordinates.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module custom_msg {
+  module msg {
+    struct TargetCoordinates {
+      @verbatim (language="comment", text=
+        "primitive data type")
+      string name;
+
+      @verbatim (language="comment", text=
+        "from a geometry msg pkg, this type of msg integrates 3 types of message (x, y and z) float64 each one")
+      geometry_msgs::msg::Point coordinate;
+    };
+  };
+};
